@@ -1,0 +1,66 @@
+.bodyIPR {
+    background-color: rgba(14, 10, 10, 0.877); 
+}
+
+.footClass{
+    color: white;
+}
+
+.navClass {
+    background-color: #1E3A46;
+}
+
+.titulo {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+input[type=email], input[type=password], input[type=text] {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+p a {
+    text-decoration: none;
+    color: gray;
+}
+main {
+    margin: 150;
+}
+.inicioSe {
+     margin: 150;
+     
+}
+.inicioSe2 {
+    border-radius: 25px;
+    box-shadow:12cm;
+    background-color: #182b31;
+}
+.formulario {
+    margin: 50px;
+}
+
+.bordes {
+    box-shadow: 0.5px 0.5px 1px;
+}
+.h4Perfil {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+label {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+table {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
