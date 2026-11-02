@@ -1,0 +1,75 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.heroAcerca {
+    padding: 80px 0 50px;
+    text-align: center;
+    background: linear-gradient(180deg, #1E3A46 0%, transparent 100%);
+}
+
+.seccion {
+    padding: 40px 0;
+}
+
+.tarjetaAcerca {
+    background-color: #182b31;
+    border-radius: 25px;
+    padding: 30px;
+    height: 100%;
+    box-shadow: 0.5px 0.5px 1px;
+}
+
+.tarjetaAcerca i.bi {
+    color: #5fa8c4;
+}
+
+.tarjetaAcerca > i.bi {
+    font-size: 2rem;
+}
+
+.accordion {
+    --bs-accordion-bg: #182b31;
+    --bs-accordion-border-color: #1E3A46;
+    --bs-accordion-btn-bg: #182b31;
+    --bs-accordion-active-bg: #1E3A46;
+    --bs-accordion-active-color: #fff;
+}
+
+.iconoRed {
+    width: 48px;
+    height: 48px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #1E3A46;
+    font-size: 1.3rem;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+
+.iconoRed i.bi {
+    color: white;
+}
+
+.iconoRed:hover {
+    transform: scale(1.12);
+}
+
+.mapa iframe {
+    width: 100%;
+    height: 380px;
+    border: 0;
+    border-radius: 25px;
+}
+
+.contador {
+    font-size: 0.85rem;
+    opacity: 0.7;
+}
+
+textarea, select {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+}
