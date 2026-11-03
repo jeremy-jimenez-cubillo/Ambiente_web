@@ -1,0 +1,42 @@
+/* Estilos de la sección "Otro"
+   Modo oscuro  y modo claro. 
+
+/* ---------- Menú Otro en la barra de navegación ---------- */
+.menuOtro .btn {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+/* ---------- Modo oscuro: las tarjetas claras pasan a verde azulado oscuro ---------- */
+[data-bs-theme="dark"] .text-bg-light {
+    color: #f8f9fa !important;
+    background-color: #182b31 !important;
+}
+
+/* ---------- Modo claro ---------- */
+[data-bs-theme="light"] .bodyIPR {
+    background-color: #eef2f3;
+}
+
+[data-bs-theme="light"] .footClass {
+    color: #212529;
+}
+
+/* Páginas con el texto principal en blanco (categorías, información del auto) */
+[data-bs-theme="light"] main.text-white {
+    color: #212529 !important;
+}
+
+[data-bs-theme="light"] .inicioSe2 {
+    background-color: #ffffff;
+}
+
+/* Botones oscuros: en modo oscuro se aclaran un poco para que se vean sobre las tarjetas */
+[data-bs-theme="dark"] .btn-dark {
+    --bs-btn-bg: #2f5361;
+    --bs-btn-border-color: #2f5361;
+    --bs-btn-hover-bg: #3d6b7c;
+    --bs-btn-hover-border-color: #3d6b7c;
+    --bs-btn-active-bg: #3d6b7c;
+    --bs-btn-active-border-color: #3d6b7c;
+}
